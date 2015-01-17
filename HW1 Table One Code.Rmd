@@ -57,3 +57,11 @@ Now, create the table, stratifying by treatment group.
 ```{r}
 TableOne <- CreateTableOne(vars=vars, strata=("group"), data=hw1data)
 ```
+
+
+When you print the table, you may want to show all levels included in the categorical variables.  
+
+```{r}
+print(TableOne, showAllLevels=TRUE)
+```
+
