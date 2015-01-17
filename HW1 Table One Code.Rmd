@@ -51,3 +51,9 @@ Then, create a list of the variables that you want to summarize. This is a vecto
 vars <-c ("age", "sex", "race", "weight", "height")
 ```
 
+
+Now, create the table, stratifying by treatment group. 
+
+```{r}
+TableOne <- CreateTableOne(vars=vars, strata=("group"), data=hw1data)
+```
