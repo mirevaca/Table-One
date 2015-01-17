@@ -1,0 +1,16 @@
+---
+title: 'Reproducible Research: Creating a Table One'
+author: "Mireya Vaca"
+date: "January 16, 2015"
+output: html_document
+---
+
+
+This file will go through the steps and the Rcode necessary for creating a Table One from data in the file "hw1data.csv" using an existing package.
+
+
+First, read the data into R. 
+
+```{r}
+hw1data = read.csv("hw1data.csv")
+```
