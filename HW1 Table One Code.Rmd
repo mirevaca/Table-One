@@ -75,3 +75,10 @@ summary(TableOne)
 
 The summary statistics show that data for the continuous variables follow a normal distribution (based on skewness and mean/median data), there are no missing values, and frequencies in each category are large. So, we can use the default tests in the package. The tests used are chi-square tests with continuity correction for categorical variables and a two-sample t-test for continuous variables (under an equal variance assumption). 
 
+
+This is the table we will use for Table One.
+
+```{r}
+print(TableOne, showAllLevels=TRUE)
+```
+
