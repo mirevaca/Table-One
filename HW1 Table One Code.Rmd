@@ -23,7 +23,8 @@ head(hw1data)
 ```
 
 
-You will need to load the package for creating a table into R.  The package can be downloaded from: http://cran.r-project.org/web/packages/tableone/index.html  
+You will need to load the package for creating a table into R.  The package can be downloaded from:  
+http://cran.r-project.org/web/packages/tableone/index.html  
 
 ```{r}
 library(tableone)
