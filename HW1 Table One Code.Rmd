@@ -14,3 +14,10 @@ First, read the data into R.
 ```{r}
 hw1data = read.csv("hw1data.csv")
 ```
+
+
+Now, display the first few rows of the data to look at what we have. 
+
+```{r}
+head(hw1data)
+```
