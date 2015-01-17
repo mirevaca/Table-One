@@ -37,3 +37,17 @@ catvarstofactors <- c("sex", "race")
 hw1data[catvarstofactors] <- lapply(hw1data[catvarstofactors], factor)
 ```
 
+
+Obtain the names of the variables. 
+
+```{r}
+dput(names(hw1data))
+```
+
+
+Then, create a list of the variables that you want to summarize. This is a vector of variables.
+
+```{r}
+vars <-c ("age", "sex", "race", "weight", "height")
+```
+
