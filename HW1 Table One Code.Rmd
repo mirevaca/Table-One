@@ -92,7 +92,13 @@ print(TableOne, showAllLevels=TRUE)
 ```
 
 
+GitHub Repository: 
+https://github.com/mirevaca/Table-One.git
+
+
 Additional Resources on using the TableOne package:  
 * http://www.inside-r.org/node/236481   
 * http://rpubs.com/kaz_yos/tableone-vignette
+
+
 
